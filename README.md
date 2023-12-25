@@ -1,9 +1,15 @@
-# Resumepy
-1. Single Page webpage
-2. Allows users to upload files which is stored in firebase storage
-3. Checks to see if user submitted a file or not
+# Single-Page File Upload Web Application
 
+## Project Overview
+This repository contains a single-page web application designed to allow users to upload files to Firebase storage. It is built with a combination of Express and Flask frameworks and utilizes HTML and CSS for frontend design.
 
-# DID NOT IMPLIMENT 
-1. Resume parser ( we werent getting the data we wanted)
-2. Search bar for parsed skills 
+## Features
+- **File Upload**: Users can select and upload files through a user-friendly interface.
+- **Firebase Storage**: Uploaded files are stored securely in Firebase storage.
+- **Submission Validation**: The system checks for file presence to prevent empty submissions.
+
+## Technologies Used
+- **Express**: A minimal and flexible Node.js web application framework that provides a robust set of features for web applications.
+- **Flask**: A micro web framework written in Python, used for handling backend operations.
+- **HTML & CSS**: Used for structuring and styling the web application's single page.
+- **Firebase Storage**: A powerful, simple, and cost-effective object storage service built for Google scale.
